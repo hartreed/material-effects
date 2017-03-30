@@ -1,0 +1,45 @@
+@import 'jeet'
+@import '../../mixins/util'
+
+.materialButton
+  display inline-block
+  height 1.4em
+  level 1, true
+  overflow hidden
+  margin 0 auto
+  padding 0.5em 1em
+  border none
+  border-radius 5px
+  background #333
+  color #FFF
+  font-size 1.4em
+  font-family sans-serif
+  text-transform uppercase
+  // text-align center
+  outline none
+  cursor pointer
+  user-select none
+
+  &:hover
+    background lighten(@background, 10%)
+
+  .ripple
+    position absolute
+    pointer-events none
+    width 0
+    height 0
+    top 0
+    left 0
+    border-radius 50%
+    z-index 1
+    opacity 1.0
+    background white
+    transition opacity 0.0s
+
+    &.fade
+      opacity 0.0
+      transition opacity 0.6s
+  .overlay
+    z-index 2
+    width auto
+    height 100%
