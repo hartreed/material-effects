@@ -9,7 +9,7 @@ share.Ripple = class Ripple extends Module
     @alpha = 0
     @maxAlpha = 0.6
     @time = 0
-    @duration = 1000
+    @duration = 300
 
   react: (pos) ->
     @time = 0
