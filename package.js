@@ -13,7 +13,7 @@ Package.onUse(function(api) {
     'templating',
     'reactive-var',
     'mquandalle:jade@0.4.9',
-    'mquandalle:stylus'
+    'mquandalle:stylus@1.1.1'
   ], 'client');
   api.addFiles([
     'mixins/util.styl'
