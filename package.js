@@ -1,6 +1,6 @@
 Package.describe({
   name: 'pangolinrex:material-effects',
-  version: '0.0.2',
+  version: '0.0.3',
   summary: 'a set of material design components and effects for meteor',
   git: 'https://github.com/hartreed/custom-console.git',
   documentation: 'README.md'
