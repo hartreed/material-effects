@@ -1,6 +1,6 @@
 Package.describe({
   name: 'pangolinrex:material-effects',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'a set of material design components and effects for meteor',
   git: 'https://github.com/hartreed/custom-console.git',
   documentation: 'README.md'
@@ -27,10 +27,10 @@ Package.onUse(function(api) {
   ], 'client');
 });
 
-Package.onTest(function(api) {
-  api.use('ecmascript');
-  api.use('tinytest');
-  try {
-    api.mainModule('material-effects-tests.js');
-  } catch (error) {}
-});
+// Package.onTest(function(api) {
+//   api.use('ecmascript');
+//   api.use('tinytest');
+//   try {
+//     api.mainModule('material-effects-tests.js');
+//   } catch (error) {}
+// });
